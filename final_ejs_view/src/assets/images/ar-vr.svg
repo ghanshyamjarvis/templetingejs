@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="55px" viewBox="0 0 53 55" version="1.1">
+  <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+  <title>Page 1</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <polygon id="path-1" points="0 53.63 52.869 53.63 52.869 0 0 0"/>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="What-We-Do" transform="translate(-304.000000, -802.000000)">
+      <g id="Page-1" transform="translate(304.000000, 803.000000)">
+        <path d="M16,23 C16,26.615 17.713,29.596 22.597,29.596" id="Stroke-1" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5,12.3 C7.83,5.2 15.45,0 24.24,0 C30.25,0 36.721,3.651 40.59,8.91" id="Stroke-3" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4,23 C5.181,28.14 8.78,31.81 11.13,34.54 C12.5,36.13 13.25,38.149 13.25,40.25 L13.25,52.81 L32.79,52.81 L32.79,43.55 L42.931,43.55 L42.931,33.529 L46.57,33.529 C47.41,33.529 47.96,32.67 47.61,31.91 C47.061,30.71 46.44,28.72 45.82,26.39" id="Stroke-5" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26,36 C26,41.2 29.616,43.991 32.787,43.991" id="Stroke-7" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <mask id="mask-2" fill="white">
+          <use xlink:href="#path-1"/>
+        </mask>
+        <g id="Clip-10"/>
+        <polygon id="Stroke-9" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="1 22.515 24.215 22.515 24.215 13 1 13"/>
+        <path d="M24,13.394 L37.192,10" id="Stroke-11" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"/>
+        <polygon id="Stroke-12" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="37 26.301 51.462 26.301 51.462 10 37 10"/>
+        <path d="M24,23 L37.192,26.393" id="Stroke-13" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"/>
+        <path d="M33,16 L33,20.693" id="Stroke-14" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"/>
+        <path d="M29,16 L29,20.693" id="Stroke-15" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

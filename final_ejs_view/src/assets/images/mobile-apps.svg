@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="52px" viewBox="0 0 29 52" version="1.1">
+  <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+  <title>Page 1</title>
+  <desc>Created with Sketch.</desc>
+  <defs/>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="What-We-Do" transform="translate(-1096.000000, -622.000000)">
+      <g id="Page-1" transform="translate(1097.000000, 623.000000)">
+        <path d="M5.28,0 C1.814,0 5.68434189e-14,1.815 5.68434189e-14,5.28 L5.68434189e-14,43.726 C5.68434189e-14,47.19 1.814,49.006 5.28,49.006 L21.202,49.006 C24.667,49.006 26.482,47.19 26.482,43.726 L26.482,5.363 C26.565,1.898 24.75,0 21.285,0 L5.28,0 Z" id="Stroke-1" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5.68434189e-14,7 L26.482,7" id="Stroke-3" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5.68434189e-14,42 L26.482,42" id="Stroke-5" stroke="#162C47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M15.326,45.664 C15.326,44.745 14.582,44 13.663,44 C12.744,44 12,44.745 12,45.664 C12,46.582 12.744,47.327 13.663,47.327 C14.582,47.327 15.326,46.582 15.326,45.664" id="Fill-7" fill="#162C47"/>
+      </g>
+    </g>
+  </g>
+</svg>

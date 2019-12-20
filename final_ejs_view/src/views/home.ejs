@@ -1,0 +1,348 @@
+<% layout('layout') -%>
+
+<div id="side-nav" class="side-nav">
+  <ul class="side-nav-link">
+    <li><a class="nav-link active" href="#intro"><span>Home</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#types-of-work"><span>Types Of Work</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#case-studies"><span>Case Studies</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#contact"><span>Connect</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#clients"><span>Clients</span>&nbsp;</a></li>
+  </ul>
+</div>
+
+
+<section id="intro" class="hero-section">
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="<%= storageHost %>/images/1010301539-preview.mp4" type="video/mp4">
+  </video>
+  <div class="container-fluid">
+
+    <div class="hero-text">
+      <h2>Creating software solutions that make lives better.</h2>
+    </div>
+    <div class="scroll-icon">
+      <a href="#types-of-work">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="scroll"><span class="one"></span> <span class="two"></span> <span class="three"></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="types-of-work" class="section-padding work-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center">
+          <h2>Types of work we've done</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="owl-carousel owl-theme owl-works owl-arrow">
+          <div class="item">
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/workflow-automation.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Workflow Automation</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <div class="work-box">
+                  <span class="box-icon"><img
+                      src="<%= storageHost %>/images/web-design.svg"
+                      alt="icon"/>
+                  </span>
+                  <h4>Web Design</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/mobile-apps.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Mobile Apps</h4>
+              </a>
+            </div>
+
+          </div>
+          <div class="item">
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img src="<%= storageHost %>/images/ar-vr.svg"
+                       alt="icon"/>
+                </span>
+                <h4>AR/VR</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/mobile-games.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Mobile Games</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/facial-recognition.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Facial Recognition</h4>
+              </a>
+            </div>
+
+
+          </div>
+          <div class="item">
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/system-integration.svg"
+                    alt="icon"/>
+                </span>
+                <h4>System Integration</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/artificial-intelligence.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Artificial Intelligence</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img src="<%= storageHost %>/images/cloud.svg"
+                       alt="icon"/>
+                </span>
+                <h4>Cloud</h4>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="case-studies" class="section-padding cs-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center">
+          <h2>How we've helped our clients</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 order-md-2">
+        <figure>
+          <img src="<%= storageHost %>/images/video-project-before.png" alt="image"/>
+        </figure>
+      </div>
+      <div class="col-md-4 order-md-1 align-self-center">
+        <h3>Before</h3>
+        <p>A client of Clevyr’s was frustrated with their legacy flash based image editing application. Users struggled
+          with frequent software updates
+          that delayed critical business processes.</p>
+        <div class="border-box">
+          <h5><a href="">Did you Know</a></h5>
+          <p>Higher performing IT organizations deploy code 46X faster than their competitors</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding cs-section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <figure>
+          <img src="<%= storageHost %>/images/video-project-after.png" alt="image"/>
+        </figure>
+      </div>
+      <div class="col-md-4 align-self-center">
+        <h3>After</h3>
+        <p>The team at Clevyr created a new application with all the features of the legacy system and added in the
+          capability to edit videos as well.
+          With the addition of video editing, they can deliver better service, empower their users, and stay ahead of
+          their competition.</p>
+        <span class="hr-image">
+          <img alt="Image" src="<%= storageHost %>/images/hr-line.svg"
+               width="200" height="14">
+        </span>
+        <p class="pt-3">
+          <a href="#" class="btn btn-theme-alt text-uppercase btn-sm-wide xs-btn">Contact Us</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding cs-section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 align-self-center">
+        <h3>Onboarding in the Past</h3>
+        <p>A client of Clevyr’s has been onboarding clients the same way for almost 100 years. They came to Clevyr
+          seeking interesting and new
+          solutions.</p>
+        <div class="border-box">
+          <h5><a href="">Did you Know</a></h5>
+          <p>The share of jobs requiring AI skills has increased 450% since 2013</p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <figure>
+          <img src="<%= storageHost %>/images/onboarding-past.png" alt="image"/>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding cs-section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <figure>
+          <img src="<%= storageHost %>/images/onboarding-future.png" alt="image"/>
+        </figure>
+      </div>
+      <div class="col-md-4 align-self-center">
+        <h3>Onboarding in the Future</h3>
+        <p>We built a Proof-of-Concept for them showcasing a tool using AI, facial recognition, and a domain specific
+          chatbot that took the old paper and
+          pen method and moved it to a mobile device.</p>
+        <span class="hr-image">
+          <img alt="Image" src="<%= storageHost %>/images/hr-line.svg"
+               width="200" height="14">
+        </span>
+        <p class="pt-3">
+          <a href="#" class="btn btn-theme-alt text-uppercase btn-sm-wide xs-btn">Contact Us</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-padding contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <nav>
+          <div class="nav nav-pills justify-content-center homepage-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="quote-tab" data-toggle="tab" href="#quote" role="tab"
+               aria-controls="nav-quote"
+               aria-selected="true">QUOTE</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="quote" role="tabpanel" aria-labelledby="quote-tab">
+        <div class="row">
+          <div class="col-md-6 col-lg-5 align-self-center">
+            <h3>Request a Quote</h3>
+            <p>Whether its a small or large project, we would love to hear more about your application and how we can
+              help provide a solution. Feel
+              free to get in touch with us.</p>
+            <span class="hr-image">
+              <img alt="Image"
+                   src="<%= storageHost %>/images/hr-line.svg"
+                   width="200" height="14">
+            </span>
+          </div>
+          <div class="col-md-6 col-lg-6 offset-lg-1">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-theme-alt sm-btn text-uppercase" value="Send Message"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clients" class="section-padding clients-section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Some of our clients include:</p>
+      </div>
+      <div class="col-12">
+        <div class="owl-carousel owl-theme owl-clients owl-arrow">
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-02.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-03.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-04.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-05.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-06.png" alt="image"/>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

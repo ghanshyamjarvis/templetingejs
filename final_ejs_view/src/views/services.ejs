@@ -1,0 +1,316 @@
+<% layout('layout') -%>
+
+<div id="side-nav" class="side-nav">
+  <ul class="side-nav-link">
+    <li><a class="nav-link active" href="#intro"><span>What We Do</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#ourProcess"><span>Our Process</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#typesOfWork"><span>Types Of Work</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#connect"><span>Connect</span>&nbsp;</a></li>
+    <li><a class="nav-link" href="#clients"><span>Clients</span>&nbsp;</a></li>
+  </ul>
+</div>
+
+<section id="intro" class="top-section">
+  <div class="container">
+
+    <div class="header-text">
+      <h1>Service Details</h1>
+      <p>Organization products to improve community and collaboration.</p>
+    </div>
+  </div>
+</section>
+
+<section id="ourProcess" class="section-padding cs-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>Our Service include</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <figure>
+          <img src="<%= storageHost %>/images/step-1-whiteboard.png" alt="image"/>
+        </figure>
+      </div>
+      <div class="col-md-4 align-self-center">
+        <h3>Discovery</h3>
+        <p>Many companies out there can write software that solves business problems. And many companies can create
+          beautiful applications. But few can write
+          software that's both effective and elegant. The key to accomplishing this marriage between form and function
+          is a thorough discovery process. Our
+          team will work with a client’s key stakeholders to deeply understand the technological context and business
+          requirements required to provide a
+          solution.</p>
+        <span class="hr-image">
+          <img alt="Image" src="<%= storageHost %>/images/hr-line.svg"
+               width="200" height="14">
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding cs-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 order-md-2">
+        <figure>
+          <img src="<%= storageHost %>/images/software-development.png" alt="image"/>
+        </figure>
+      </div>
+      <div class="col-md-4 order-md-1 align-self-center">
+        <h3>Development</h3>
+        <p>Our company was founded by designers and developers and we are still crafting technology that does not just
+          meet our client’s needs, but shows them
+          that applications can be fun, fast, elegant, and easy.</p>
+        <p>While we build with standards, we are always pushing deeper with true research and development to offer the
+          best solution: Artificial Intelligence,
+          Machine Learning, Augmented and Virtual Reality, and even some things you might not know about.</p>
+        <span class="hr-image">
+          <img alt="Image" src="<%= storageHost %>/images/hr-line.svg"
+               width="200" height="14">
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding cs-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <figure>
+          <img src="<%= storageHost %>/images/software-development.png" alt="image"/>
+        </figure>
+      </div>
+      <div class="col-md-4 align-self-center">
+        <h3>Deployment</h3>
+        <p>We deploy to the cloud, whether that is your AWS, Azure, Google Cloud Platform, IBM Cloud Hosting, or a
+          hybrid of cloud and your on prem; we have
+          years of experience with continuous integration and continuous delivery (CICD).</p>
+        <span class="hr-image">
+          <img alt="Image" src="<%= storageHost %>/images/hr-line.svg"
+               width="200" height="14">
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="types-of-work" class="section-padding work-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center">
+          <h2>Types of work we've done</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="owl-carousel owl-theme owl-works owl-arrow">
+          <div class="item">
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/workflow-automation.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Workflow Automation</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <div class="work-box">
+                  <span class="box-icon">
+                    <img
+                      src="<%= storageHost %>/images/web-design.svg"
+                      alt="icon"/>
+                  </span>
+                  <h4>Web Design</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/mobile-apps.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Mobile Apps</h4>
+              </a>
+            </div>
+
+          </div>
+          <div class="item">
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img src="<%= storageHost %>/images/ar-vr.svg"
+                       alt="icon"/>
+                </span>
+                <h4>AR/VR</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/mobile-games.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Mobile Games</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/facial-recognition.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Facial Recognition</h4>
+              </a>
+            </div>
+
+
+          </div>
+          <div class="item">
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/system-integration.svg"
+                    alt="icon"/>
+                </span>
+                <h4>System Integration</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img
+                    src="<%= storageHost %>/images/artificial-intelligence.svg"
+                    alt="icon"/>
+                </span>
+                <h4>Artificial Intelligence</h4>
+              </a>
+            </div>
+
+            <div class="work-box">
+              <a href="services">
+                <span class="box-icon">
+                  <img src="<%= storageHost %>/images/cloud.svg"
+                       alt="icon"/>
+                </span>
+                <h4>Cloud</h4>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<section id="connect" class="section-padding contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <nav>
+          <div class="nav nav-pills justify-content-center homepage-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="quote-tab" data-toggle="tab" href="#quote" role="tab"
+               aria-controls="nav-quote"
+               aria-selected="true">QUOTE</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="quote" role="tabpanel" aria-labelledby="quote-tab">
+        <div class="row">
+          <div class="col-md-6 col-lg-5 align-self-center">
+            <h3>Request a Quote</h3>
+            <p>Whether its a small or large project, we would love to hear more about your application and how we can
+              help provide a solution. Feel
+              free to get in touch with us.</p>
+            <span class="hr-image">
+              <img alt="Image"
+                   src="<%= storageHost %>/images/hr-line.svg"
+                   width="200" height="14">
+            </span>
+          </div>
+          <div class="col-md-6 col-lg-6 offset-lg-1">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-theme-alt sm-btn text-uppercase" value="Send Message"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clients" class="section-padding clients-section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Some of our clients include:</p>
+      </div>
+      <div class="col-12">
+        <div class="owl-carousel owl-theme owl-clients owl-arrow">
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-02.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-03.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-04.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-05.png" alt="image"/>
+            </figure>
+          </div>
+          <div class="item">
+            <figure>
+              <img src="<%= storageHost %>/images/clients-06.png" alt="image"/>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="14px" viewBox="0 0 200 14" version="1.1">
+  <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+  <title>squiggle</title>
+  <desc>Created with Sketch.</desc>
+  <defs/>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+    <g id="Website" transform="translate(-151.000000, -3850.000000)" stroke="#D2D2D2" stroke-width="2">
+      <g id="squiggle" transform="translate(152.000000, 3851.000000)">
+        <g id="Group-3">
+          <path d="M99,0 C88.48125,0 84.76875,12 74.25,12 C63.73125,12 60.01875,0 49.5,0 C38.98125,0 35.26875,12 24.75,12 C14.23125,12 10.51875,0 0,0" id="Stroke-1"/>
+          <path d="M198,0 C187.48125,0 183.76875,12 173.25,12 C162.73125,12 159.01875,0 148.5,0 C137.98125,0 134.26875,12 123.75,12 C113.23125,12 109.51875,0 99,0" id="Stroke-3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
